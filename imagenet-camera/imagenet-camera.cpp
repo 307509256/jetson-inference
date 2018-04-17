@@ -99,7 +99,11 @@ int main( int argc, char** argv )
 	/*
 	 * create openGL window
 	 */
+	// add by gongjia
+	// glDisplay* display = NULL; //no use to display
+	
 	glDisplay* display = glDisplay::Create();
+
 	glTexture* texture = NULL;
 	
 	if( !display ) {
